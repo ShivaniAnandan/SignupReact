@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 50%;
+    
+}
+
+.form input{
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 100px;
+}
+
+button{
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.succ{
+    color:#7ECD71;
+    
+}
+
+.err{
+    color: #FF4F4F;
+}
